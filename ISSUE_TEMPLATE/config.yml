@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: eoscloud documentation
+    url: "https://docs.eoscloud.io"
+    about: Guides and API reference for the eoscloud platform.
+  - name: eoscloud customer support
+    url: "mailto:support@eoscloud.io"
+    about: Account, billing and platform issues are handled by support, not here.
+  - name: netcup forum (eos)
+    url: "https://forum.netcup.de/board/86-netcup-eos/"
+    about: Questions about using eoscloud, answered by the community and the eos team.

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Renovate preset for the eoscloud open source repositories (Mend Renovate app on GitHub).",
+  "extends": [
+    "config:recommended",
+    ":semanticCommits",
+    ":semanticCommitTypeAll(chore)",
+    "helpers:pinGitHubActionDigestsToSemver"
+  ],
+  "dependencyDashboard": true,
+  "commitBody": "Signed-off-by: {{{gitAuthor}}}",
+  "postUpdateOptions": [
+    "gomodTidy"
+  ],
+  "vulnerabilityAlerts": {
+    "description": "Security updates are fixes: they lead to a patch release.",
+    "semanticCommitType": "fix"
+  }
+}
